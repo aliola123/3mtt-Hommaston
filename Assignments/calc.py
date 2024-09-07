@@ -16,7 +16,6 @@ def division(a, b):
 
 print("Hi there, Welcome to my simple Calculator, Below are the operations you can carry out:")
 
-print("Hi there, Welcome to my simple Calculator, Below are the operations you can carry out:")
 
 while True: #runs the calculator continously unless a user decides to quit
     print("[1] Addition")
