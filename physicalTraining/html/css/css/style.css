@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap');
+h1 {
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-size: 100px;
+    font-weight: 800;
+    font-style: italic;
+
+}
+
+div + p {
+    background-color: green;
+}

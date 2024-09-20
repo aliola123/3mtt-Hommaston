@@ -36,20 +36,14 @@ while True: #runs the calculator continously unless a user decides to quit
         continue  
 
     # Get input numbers from the user
-    while True:
         try:
             firstNum = int(input("Enter the first number: "))
         except ValueError:
+            print("Invalid input! Please enter a valid integer.")  
+        try:
+            secondNum = int(input("Enter the second number: "))
+        except ValueError:
             print("Invalid input! Please enter a valid integer.")
-            continue  
-        while True:
-            try:
-                secondNum = int(input("Enter the second number: "))
-                break  
-            except ValueError:
-                print("Invalid input! Please enter a valid integer.")
-                continue
-        break
 
 
     # Perform the operation based on user's choice
